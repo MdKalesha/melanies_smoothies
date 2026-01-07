@@ -1,9 +1,9 @@
 # Import python packages
 import streamlit as st
+import requests
 import pandas as pd
 #from snowflake.snowpark.context import get_active_session
 from snowflake.snowpark.functions import col
-import requests
 # Write directly to the app
 st.title(f"Customize Your Smoothie :cup_with_straw:")
 st.write(
